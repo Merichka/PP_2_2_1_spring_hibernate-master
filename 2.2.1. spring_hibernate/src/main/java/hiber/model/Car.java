@@ -16,9 +16,6 @@ public class Car {
     @Column(name = "series")
     private String series;
 
-    @OneToOne(mappedBy = "car")
-    private User owner;
-
     public Car() {
 
     }
